@@ -4,7 +4,7 @@ import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
 import Success from './Success';
 
-export class UserForm extends Component {
+class UserForm extends Component {
   state = {
     step: 1,
     firstName: '',
@@ -47,9 +47,9 @@ export class UserForm extends Component {
       case 1:
         return (
           <FormUserDetails
-              nextStep={this.nextStep}
-              handleChange={this.handleChange}
-              values={values}
+            nextStep={this.nextStep}
+            handleChange={this.handleChange}
+            values={values}
           />
         )
       case 2:

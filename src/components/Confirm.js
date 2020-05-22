@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Confirm extends Component {
+class Confirm extends Component {
   
   render() {
     return (
