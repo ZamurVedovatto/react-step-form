@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Success extends Component {
 
@@ -9,4 +9,4 @@ class Success extends Component {
   }
 }
 
-export default Success;
+export default Success

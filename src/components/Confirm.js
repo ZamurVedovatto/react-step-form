@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Confirm extends Component {
   
@@ -9,4 +9,4 @@ class Confirm extends Component {
   }
 }
 
-export default Confirm;
+export default Confirm

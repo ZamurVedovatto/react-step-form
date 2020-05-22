@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class FormUserDetails extends Component {
 
@@ -9,4 +9,4 @@ class FormUserDetails extends Component {
   }
 }
 
-export default FormUserDetails;
+export default FormUserDetails
