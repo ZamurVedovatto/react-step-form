@@ -4,7 +4,7 @@ import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
 import Success from './Success';
 
-class UserForm extends Component {
+export class UserForm extends Component {
   state = {
     step: 1,
     firstName: '',
@@ -17,7 +17,7 @@ class UserForm extends Component {
 
   // Proceed to next step
   nextStep = () => {
-    const { step } = step.state;
+    const { step } = this.state.step;
     this.setState({
       step: step + 1
     })
@@ -25,7 +25,7 @@ class UserForm extends Component {
 
   // Go back to previous step
   prevStep = () => {
-    const { step } = step.state;
+    const { step } = this.state.step;;
     this.setState({
       step: step - 1
     })
@@ -75,6 +75,10 @@ class UserForm extends Component {
             handleChange={this.handleChange}
             values={values}
           />
+        )
+      default:
+        return (
+          <div>ow nooo</div>
         )
     }
   }

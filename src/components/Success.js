@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Success extends Component {
+export class Success extends Component {
 
   render() {
     return (
