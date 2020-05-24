@@ -16,7 +16,6 @@ class UserForm extends Component {
   }
 
   goToBegin = () => {
-    const { step } = this.state
     this.setState({
       step: 1
     })
