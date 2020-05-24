@@ -12,8 +12,7 @@ class FormUserDetails extends Component {
   }
 
   render() {
-    const { values } = this.props
-    const { handleChange } = this.props
+    const { values, handleChange } = this.props
     return (
       <Fragment >
         <AppBar position="static" color="transparent">
