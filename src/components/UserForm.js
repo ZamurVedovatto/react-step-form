@@ -15,6 +15,13 @@ class UserForm extends Component {
     bio: ''
   }
 
+  goToBegin = () => {
+    const { step } = this.state
+    this.setState({
+      step: 1
+    })
+  }
+
   // Proceed to next step
   nextStep = () => {
     const { step } = this.state
@@ -65,16 +72,14 @@ class UserForm extends Component {
         return (
           <Confirm
             nextStep={this.nextStep}
-            handleChange={this.handleChange}
+            prevStep={this.prevStep}
             values={values}
           />
         )
       case 4:
         return (
           <Success
-            nextStep={this.nextStep}
-            handleChange={this.handleChange}
-            values={values}
+          goToBegin={this.goToBegin}  
           />
         )
       default:

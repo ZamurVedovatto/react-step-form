@@ -52,7 +52,6 @@ class FormPersonalDetails extends Component {
         />
         <br/>
         <Button
-          color="info"
           variant="outlined"
           style={styles.button}
           onClick={this.back}
