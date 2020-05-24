@@ -1,4 +1,4 @@
 # React Step Form
 
-
-https://youtu.be/zT62eVxShsY?t=1616
+React multi step form with multiple components including user & personal details, confirmation and success.
+For this app, I used Material UI lib.
